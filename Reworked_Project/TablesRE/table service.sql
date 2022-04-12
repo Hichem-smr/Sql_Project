@@ -1,0 +1,3 @@
+INSERT INTO service VALUES (tservice('CAR','Cardiologie','B',ref_medecin(80), t_set_hospitalisation(), t_set_infirmiers(), t_set_chambre()));
+INSERT INTO service VALUES (tservice('CHG','Chirurgie générale','A',ref_medecin(34), t_set_hospitalisation(), t_set_infirmiers(), t_set_chambre()));
+INSERT INTO service VALUES (tservice('REA','Réanimation et Traumatologie','A',ref_medecin(19), t_set_hospitalisation(), t_set_infirmiers(), t_set_chambre()));
